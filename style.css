@@ -1,0 +1,175 @@
+.set1{
+  text-decoration: none;
+  list-style-type: none;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.set{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.se{
+  color: black;
+  text-decoration: none;
+}
+
+.set2{
+  margin-top: -40px;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.heading1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.heading{
+  text-align: center;
+  font-size: 90px;
+  margin: -7px;
+  font-family: 'Times New Roman', Times, serif;
+font-weight: 200;
+text-transform: uppercase;
+}
+
+
+.paragraph{
+  text-align: center;
+  font-family: 'Arial Narrow';
+  font-size: 13px;
+}
+
+.set3{
+  list-style-type: none;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+  font-size: 10px;
+  gap: 5px;
+  
+  
+}
+.img{
+  width: 965px;
+}
+
+.paragraph1{
+  text-align: top;
+  margin-top: -8px;
+}
+
+.paragraph2{
+  text-align: bottom;
+  margin-top: 2px
+}
+
+
+.bold{
+  color: blue;
+}
+
+.heading2{
+  color: darkred
+}
+
+#Name{
+  background-color: rgba(232, 232, 232, 1)
+ 
+}
+
+#Email{
+  background-color: rgba(232, 232, 232, 1)
+}
+
+#phoneOptional{
+  background-color: rgba(232, 232, 232, 1)
+}
+
+#cityOptional{
+  background-color: rgba(232, 232, 232, 1)
+}
+
+#yourMessage{
+  background-color: rgba(232, 232, 232, 1)
+}
+
+.fa-twitter{
+  position: absolute;
+  right: 17%;
+  font-size: 30px;
+  
+}
+
+.fa-facebook{
+  position: absolute;
+  right: 12%;
+  font-size: 30px;
+}
+
+.fa-address-book{
+  position: absolute;
+  right: 7%;
+  font-size: 30px;
+}
+
+.fa-envelope{
+  position: absolute;
+  right: 2%;
+ font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .set1 {
+    text-decoration: none;
+    list-style-type: none;
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+    font-size: 10px;
+  }
+  
+  .heading{
+  text-align: center;
+  font-size: 40px;
+}
+  
+  
+.set3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+  font-size: 10px;
+  gap: 5px;
+ 
+}
+
+.heading1{
+  font-size: 40px;
+}
+  
+  .img{
+  
+  height: 200px;
+  width: 350px;
+  
+}
+
+.paragraph2{
+  font-size: 15px;
+}
+  
+  .p20{
+    font-size: 12px;
+  }
+  
+  
+  
+}
